@@ -1,0 +1,13 @@
+0 read r1
+1 read r2
+2 read r3
+3 setn r4 -10
+4 setn r5 2
+5 mul r6 r4 r1
+6 mul r6 r6 r1
+7 div r6 r6 r5
+8 mul r7 r3 r1
+9 add r7 r7 r2
+10 add r8 r6 r7
+11 write r8
+12 halt
