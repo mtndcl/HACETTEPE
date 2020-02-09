@@ -1,0 +1,149 @@
+main(){
+	
+	int x;
+	int y=5;
+	int z=y;
+	int t;
+	x=y;
+	x+=3;
+	z=x-z;
+	y*=2;
+	t=x+y;
+	z=t/5;
+	x=x+y*3-t/3+z*y;
+
+	float i;
+	float j= 3.1;
+	float k=j;
+	float m;
+	i=j;
+	i+=3.5;
+	k=i+j;
+	j*=2.3;
+	m=i+j;
+	k=m/2.3;
+	i=i+j*3.7+m/5.235-k*j;
+
+
+	str string1;
+	str string2="This is a string";
+	str string3="I am at Holiday.
+					How are you????				";
+	string1= " ajkhsdk bnfhsuka fısSW+T^+RGHGsajdkwhudhas";
+	string2="string1 was a RANDOM String :)";
+	string1= string3;
+	string2= "4565645 daa24-59udaıscy8gzvxq213*94131 3d/asdavq	1";
+	string1= "I am changed, now string 2 is a RANDOM string :P";
+
+
+	User user1= User("Metin Demir");
+	str username2;
+
+	username2= "Anil Eryilmaz";
+	User user2= User(username2);
+
+	str username3="mc_Memin_06_ANKARA_yaraLi";
+	User user3 = User(username3);
+
+	
+
+	str username4;
+	int userID;
+	userID=1;
+	if(userID==1){
+		username4="I am 4th user";
+	};
+
+	GetLocation("Metin Demir");
+	GetLocation(username2);
+	GetLocation(username3);
+	GetLocation(username4);
+
+	userID=3;
+	if(userID==3){
+		if(username2 == "Anil Eryilmaz"){
+			print username2;
+		};
+
+
+	};
+
+	Graph graph1= Graph(1,2);
+
+	int edge1= 5;
+	int vertex1;
+	vertex1=8;
+	Graph graph2 = Graph(edge1,vertex1);
+
+
+	CrossRoad crossraod1 = CrossRoad("Taksim Square");
+	str crossroadname= "KIZILAY";
+	CrossRoad crossraod2 = CrossRoad(crossroadname);
+
+
+	Object3D object1 = Object3D(1,2,3);
+	int xvalue=1;
+	int yvalue=2;
+	int zvalue=3;
+	Object3D object2 = Object3D(xvalue,yvalue,zvalue);
+	
+
+	GpsData gpsdata = GpsData("Sincan Lisesi");
+	gpsLocation = "Hacettepe";
+	GpsData gpsdata1 = GpsData(gpsLocation);
+
+
+	ShowOnMap(12,4);
+	int xloc=15;
+	int yloc=75;
+	ShowOnMap(xloc,yloc);
+	
+
+	
+	str loc= "ADANA";
+	SearchLocation(loc);
+	SearchLocation("Ankara Sincan");
+
+	ShowTarget(loc);
+	ShowTarget("Hacettepe Universitesi");
+
+	str road = "Istiklal Caddesi";
+	GetRoadSpeed(road);
+	GetRoadSpeed("Ankara Bulvarı");
+
+	username1="alican";
+	GetLocation(username1);
+	GetLocation("mehmet emin");
+	x=0;
+
+	for(x; x<5; x+=1){
+		
+		if(x==6){
+			y=3;
+		};
+	};
+
+	x=10;
+	while(x>1){
+		for(x; x<5; x+=1){
+			y+=3;
+		};
+	};
+	
+	getME();
+
+	Array arraylist = Array();
+	return 0;
+}
+
+
+getME(){
+	str myname="whoIam";
+	print myname;
+	int go=10;
+	while(go>1){
+		for(go; go<5; go+=1){
+			go+=3;
+		};
+	};
+}
