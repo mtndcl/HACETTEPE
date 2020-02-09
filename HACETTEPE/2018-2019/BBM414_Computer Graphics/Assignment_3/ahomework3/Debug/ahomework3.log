@@ -1,0 +1,11 @@
+﻿  Main.cpp
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(45): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(314): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(321): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(337): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(345): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(374): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(373): warning C4101: 'i': unreferenced local variable
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(501): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\ahomework3\ahomework3\main.cpp(509): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ahomework3.vcxproj -> C:\Users\Crazy Horse\source\repos\ahomework3\Debug\ahomework3.exe

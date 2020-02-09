@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\crazy horse\source\repos\assignment2\assignment2\source.cpp(239): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\crazy horse\source\repos\assignment2\assignment2\source.cpp(238): warning C4101: 'i': unreferenced local variable
+c:\users\crazy horse\source\repos\assignment2\assignment2\source.cpp(398): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\assignment2\assignment2\source.cpp(405): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Assignment2.vcxproj -> C:\Users\Crazy Horse\source\repos\Assignment2\Debug\Assignment2.exe

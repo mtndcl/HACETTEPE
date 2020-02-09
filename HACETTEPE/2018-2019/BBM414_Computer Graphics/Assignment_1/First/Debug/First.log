@@ -1,0 +1,6 @@
+﻿  Main.cpp
+m:\lessons\fall_2018_2019\bbm414\first\first\main.cpp(124): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+m:\lessons\fall_2018_2019\bbm414\first\first\main.cpp(197): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+m:\lessons\fall_2018_2019\bbm414\first\first\main.cpp(209): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+m:\lessons\fall_2018_2019\bbm414\first\first\main.cpp(210): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  First.vcxproj -> M:\LESSONS\FALL_2018_2019\BBM414\First\Debug\First.exe

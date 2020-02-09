@@ -1,0 +1,20 @@
+﻿  Source.cpp
+c:\opengl staff\include\angel_commons\angel.h(62): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\opengl staff\include\angel_commons\mat.h(707): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\opengl staff\include\angel_commons\mat.h(708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\opengl staff\include\angel_commons\mat.h(709): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\opengl staff\include\angel_commons\mat.h(730): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\opengl staff\include\angel_commons\mat.h(732): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\opengl staff\include\angel_commons\mat.h(735): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\opengl staff\include\angel_commons\mat.h(752): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\camera.h(85): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\camera.h(89): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(39): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(225): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(314): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(315): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(319): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(320): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(322): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\crazy horse\source\repos\assignmet4\assignmet4\source.cpp(323): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Assignmet4.vcxproj -> C:\Users\Crazy Horse\source\repos\Assignmet4\Debug\Assignmet4.exe
