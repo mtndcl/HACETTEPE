@@ -1,0 +1,1 @@
+txt in data zip is my output for given wordec and wordpairs txt . Number is cluster is 2 , 3 and 4 .
