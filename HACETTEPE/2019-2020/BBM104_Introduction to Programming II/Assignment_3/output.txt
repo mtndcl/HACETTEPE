@@ -1,0 +1,20 @@
+Patient 33 Hakan added
+Patient 88 Beril added
+Patient 46 Can removed
+Admission 7 created
+Inpatient examination added to admission 7
+Outpatient examination added to admission 7
+TotalCost for admission 7
+	Inpatient Tests DoctorVisit 32.0$
+	Outpatient Tests Measurements 27.0$
+	Total: 59.0$
+5 Harun Gezici 536-8967812 Address: Tandogan
+9 Ebru Yilmaz 312-4567890 Address: Maltepe
+12 Orhan Seven 256-3456789 Address: Eryaman
+23 Zeynep Atac 234-3456789 Address: Hacettepe
+33 Hakan Kanat 234-5677896  Ayranci 10. sok. 30/10
+35 Umit Gezen 236-3446789 Address: Dikmen
+42 Ismail Can 535-8969746 Address: Cebeci
+45 Arif Batar 563-9563256 Address: Balgat
+50 Meryem Atas 654-2122121 Address: Emek
+88 Beril Maral 568-8964142  Bilkent 32 cd. 72/3
