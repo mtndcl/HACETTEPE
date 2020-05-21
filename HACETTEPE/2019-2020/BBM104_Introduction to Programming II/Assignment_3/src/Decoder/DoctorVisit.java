@@ -3,15 +3,15 @@ package Decoder;
 public class DoctorVisit extends ExaminationDecorator {
 	
 	
-	private final Examination examination;
+	///DoctorVisit Class 
 	public DoctorVisit(Examination examination) {
-		this.examination = examination;
+		super(examination);
 		
 	}
 	
 	@Override
     public String getDesc() {
-        return examination.getDesc()+" DoctorVisit";
+        return examination.getDesc()+" doctorvisit";
     }
  
  
@@ -19,6 +19,7 @@ public class DoctorVisit extends ExaminationDecorator {
     public double getPrice() {
         return examination.getPrice()+15;
     }
+
 
 
 

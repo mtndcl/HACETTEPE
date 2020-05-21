@@ -2,14 +2,14 @@ package Decoder;
 
 public class Imaging extends ExaminationDecorator {
 
-	private final Examination examination;
+	///Imaging Class 
 	public Imaging(Examination examination) {
-		this.examination = examination;
+		super(examination);
 		
 	}
 	@Override
     public String getDesc() {
-        return examination.getDesc()+" Imaging";
+        return examination.getDesc()+" imaging";
     }
  
  

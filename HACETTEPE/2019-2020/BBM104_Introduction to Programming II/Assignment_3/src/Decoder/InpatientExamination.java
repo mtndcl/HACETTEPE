@@ -1,7 +1,6 @@
 package Decoder;
 
-import java.io.FileWriter;
-import java.io.IOException;
+import java.util.ArrayList;
 
 import Model.Admission;
 
@@ -34,30 +33,75 @@ public class InpatientExamination implements Examination{
 		return "Inpatient";
 	}
 
-
-	private void print(String string,FileWriter fileWriter) {
-		try {
-			fileWriter.write(string+"\n");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-	}
-	}
-
-
-
+	
 	@Override
-	public void printoperations(Admission admission, FileWriter fileWriter) {
-		print("TotalCost for admission "+ admission.getId(),fileWriter);
-		double total=0;
-		for (Examination examination : admission.getExaminations()) {
-			total+=examination.getPrice();
-			print("\t"+ examination.getDesc()+ " " + examination.getPrice() +"$",fileWriter);
-		}
-		print("\tTotal: "+total +"$",fileWriter);
+	public void addoperation(Admission admission, String[] line) {
+				ArrayList<String>  ops=new ArrayList<String>();
+				for (String xx : line) {
+					ops.add(xx);
+				}
+			   
+			   if(	ops.contains("imaging") && 
+					ops.contains("measurements")  &&
+					ops.contains("tests") &&
+					ops.contains("doctorvisit") ) {
+				   
+				   admission.AddExamination(new Imaging(new Measurements(new Tests(new DoctorVisit(new InpatientExamination())))));
+				   
+			   }else if(ops.contains("imaging") &&
+					   ops.contains("measurements") &&
+					   ops.contains("tests")
+					  ) {
+				   admission.AddExamination(new Imaging(new Measurements(new Tests(new InpatientExamination()))));
+				   
+			   }else if(ops.contains("imaging") &&
+					   ops.contains("measurements") &&
+					   ops.contains("doctorvisit")
+					  ) {
+				   admission.AddExamination(new Imaging(new Measurements(new DoctorVisit(new InpatientExamination()))));
+				   
+			   }else if(ops.contains("measurements") &&
+					   ops.contains("tests") &&
+					   ops.contains("doctorvisit")
+					  ) {
+				   admission.AddExamination(new Measurements(new Tests(new DoctorVisit(new InpatientExamination()))));
+			   }else if(ops.contains("imaging") &&
+					   ops.contains("tests") &&
+					   ops.contains("doctorvisit")
+					  ) {
+				  admission.AddExamination(new Imaging(new Tests(new DoctorVisit(new InpatientExamination()))));
+			   }else if(ops.contains("imaging") &&
+					   ops.contains("measurements")) {
+				   admission.AddExamination(new Imaging(new Measurements(new InpatientExamination())));
+			   }else if(ops.contains("imaging") &&
+					   ops.contains("tests") ) {
+				   admission.AddExamination(new Imaging(new Tests(new InpatientExamination())));
+			   }else if(ops.contains("imaging") &&
+					   ops.contains("doctorvisit") ) {
+				   admission.AddExamination(new Imaging(new DoctorVisit(new InpatientExamination())));
+			   }else if(ops.contains("measurements") &&
+					   ops.contains("tests") ) {
+				   admission.AddExamination(new Measurements(new Tests(new InpatientExamination())));
+			   }else if(ops.contains("measurements") &&
+					   ops.contains("doctorvisit") ) {
+				   admission.AddExamination(new Measurements(new DoctorVisit(new InpatientExamination())));
+			   }else if(ops.contains("tests") &&
+					   ops.contains("doctorvisit") ) {
+				   admission.AddExamination(new Tests(new DoctorVisit(new InpatientExamination())));
+			   }else if(ops.contains("tests")) {
+				   admission.AddExamination(new Tests(new InpatientExamination()));
+			   }else if(ops.contains("doctorvisit")) {
+				   admission.AddExamination(new DoctorVisit(new InpatientExamination()));
+			   }else if(ops.contains("measurements")) {
+				   admission.AddExamination(new Measurements(new InpatientExamination()));
+			   }else if(ops.contains("imaging")) {
+				   admission.AddExamination(new Imaging(new InpatientExamination()));
+			   }
+		 } 
+			   
 		
-		
-	}
+	
+
 
 
 

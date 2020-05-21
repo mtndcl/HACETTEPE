@@ -2,15 +2,15 @@ package Decoder;
 
 public class Measurements extends ExaminationDecorator {
 
-	private final Examination examination;
+	
 	public Measurements(Examination examination) {
-		this.examination = examination;
+		super(examination);
 		
 	}
 	
 	@Override
     public String getDesc() {
-        return examination.getDesc()+" Measurements";
+        return examination.getDesc()+" measurements";
     }
  
  

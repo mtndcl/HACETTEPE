@@ -1,15 +1,16 @@
 package Decoder;
 
-import java.io.FileWriter;
-
 import Model.Admission;
 
 public interface Examination {
 	
-	 public String getDesc();
-	 public double getPrice();
 	
-	 void printoperations(Admission admission, FileWriter fileWriter);
+	///Get what structure have as text
+	 public String getDesc();
+	 ///Get price of Admission
+	 public double getPrice();
+	 ////Create Admission with examinations
+	 public void  addoperation(Admission admission,String[]  operation);
 
 	
 	
